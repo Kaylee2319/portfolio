@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>SIBME</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="container">
+        <div id="navbar">
+            <div id='logo'>
+              <img src="data:image/png;base64,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" alt="sibme logo"/>
+            </div>
+              <a href="https://sibme.com/">HOME</a>
+              <a href="https://sibme.com/why-sibme/">TOUR</a>
+              <a href="https://sibme.com/pricing/">PRICING</a>
+              <a href="https://sibme.com/sibme-platform/">ABOUT</a>
+              <a href="https://sibme.com/#contact-modal">CONTACT</a>
+                <div id='buttons' class="button">
+                  <span class="b1"><input type="button" onclick="alert('Hello World!')" value="SIGN UP"></input></span>
+                  <span class="b2"><input type="button" onclick="alert('Hello World!')" value="LOGIN"></input></span>
+                </div>
+        </div>
+          <div id="intro">
+            <h1> Video Coaching to improve student achivement</h1>
+              <p1>Sibme is a private video collaboration and development tool designed to<br> <br>take you and everyone around you to the next level</p1>
+                <div id='buttons' class="button">
+                  <span class="b3"><input type="button" Onclick="alert('Hello World!')" value='Try it Free'></input></span>
+                  <span class="b4"><input type="button" Onclick="alert('Hello World!')" value='Product Tour'></input></span>
+                </div>
+          </div>
+            <div id="screen">
+            </div>
+            <div id='computer'>
+            </div>
+              <div id="about">
+                <h1> How does SIBME improve schools?</h1>
+                  <p2> Sibme allows teaches, administrators, and school leaders to discuss, share and <br> <br> access instructional best practices as they happenin the classroom.</p2>
+              </div>
+              <div id="steps">
+                <div class="step1">
+                  <img src="https://repl.it/@KayleeHarding/OptimisticConfusedOutliers#Screenshot from 2020-10-04 13-26-37.png" alt='Graduation cap'/>
+                  <h3>Observe</h3>
+                    <p3> See every classroom at your<br> <br> leasure</p3>
+                </div>
+                <div class="step2">
+                  <img src="https://repl.it/@KayleeHarding/OptimisticConfusedOutliers#Screenshot from 2020-10-04 13-32-36.png" alt="crossed hammer and wrench"/>
+                  <h3>Evaluate & develope</h3>
+                    <p3> Find and grow those rock <br> <br> star teachers</p3>
+                </div>
+                <div class="step3">
+                  <img src="https://repl.it/@KayleeHarding/OptimisticConfusedOutliers#Screenshot from 2020-10-04 13-26-55.png" alt="a plotted line"/>
+                  <h3>Collaborate</h3>
+                    <p3> Sibme keepsteams,depart-<br><br>ments, schools working<br><br> and growing together.</p3>
+                </div>
+                <div class="step4">
+                  <img src="https://repl.it/@KayleeHarding/OptimisticConfusedOutliers#Screenshot from 2020-10-04 13-26-37.png" alt='Graduation cap'/>
+                  <h3>Academic gain</h3>
+                    <p3> Betterteachers = increased <br> <br> student achivement</p3>
+                </div>
+              </div>
+              <div id="info">
+                <div id='blog'>
+                  <h3>Recent Blog Posts</h3>
+                    <ul>
+                       <li><h5>Lorem Ipsum is simply dummy text<h><br><br> <p4>15th oct,2012</p4></li>
+                       <li><h5>Lorem Ipsum is simply dummy text<h><br><br> <p4>15th oct,2012</p4></li>
+                       <li><h5>Lorem Ipsum is simply dummy text<h><br><br> <p4>15th oct,2012</p4></li>
+                      <li><h5>Lorem Ipsum is simply dummy text<h><br><br> <p4>15th oct,2012</p4></li>
+                    </ul>
+                </div>
+                <div id='reviews'>
+                  <h3>What People Are Saying</h3>
+                    <ul>
+                      <li><p5>Suspendisse egestas neque ut lectus <br><br>abd adipiscing tincidunt. Sedloremmi,<br><br>aliqet in varius nec, accumsan et est<br><br>grells.<p5><p6>--Tanveer junayed</p6></li>
+                      <li><p5>Suspendisse egestas neque ut lectus <br><br>abd adipiscing tincidunt. Sedloremmi,<br><br>aliqet in varius nec, accumsan et est.<br><br>Integer dignissim sollicitudin risus,<br><br>quis suscipit tellus molestie eu..<p5><p6>--John doe</p6></li>
+                    </ul>
+                </div>
+                <div id='tweets'>
+                  <h3>Favorte Tweets</h3>
+                    <ul>
+                      <li>Popular Shots @popularshots<br><br> Assignment by @tjunayed -- bit.ly/OP6H06</li>
+                      <li>@kyee I stay as far away from politics as I can. I'd<br><br> say they're more like celebrities than cartoon<br><br>characters.</li>
+                      <li>@haziqmir I've had several gymnasts in my family<br><br>and they're fierce.</li>
+                    </ul>
+                </div>
+                <div id='tweetbutton'>
+                  <input type="button" Onclick="alert('Hello World!')" value='Follow @sibme'></input>
+                </div>
+              </div>
+              <div id="footerbar">
+                  <a href="https://sibme.com/">HOME</a>
+                  <a href="https://sibme.com/why-sibme/">TOUR</a>
+                  <a href="https://sibme.com/pricing/">PRICING</a>
+                  <a href="https://sibme.com/sibme-platform/">ABOUT</a>
+                  <a href="https://sibme.com/#contact-modal">CONTACT</a>
+                </div>
+                <div id='socialbuttons' class="socialbutton">
+                  <span class="b5"><input type="button" Onclick="alert('Hello World!')" value='Follow us'></input></span>
+                  <span class="b6"><input type="button" Onclick="alert('Hello World!')" value='Follow us'></input></span>
+                </div>
+        </div>
+    </body>
+  </html>

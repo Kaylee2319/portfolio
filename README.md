@@ -1,0 +1,1 @@
+This was my first weekend project at wyncode. My first attempt at recreating a web page.
